@@ -8,6 +8,7 @@ export const Form = styled.form`
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
 
   &::before {
     position: absolute;
@@ -23,6 +24,11 @@ export const Form = styled.form`
   div {
     position: relative;
     color: #eee;
+  }
+
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 24px 0;
   }
 `
 
